@@ -1,13 +1,11 @@
-import { AiFillStar } from 'react-icons/ai'
-import { BsFillBagHeartFill } from 'react-icons/bs'
-import './Products.css'
-import Card from '../components/Card'
 
-const Products = () => {
+import './Products.css'
+
+const Products = ({result}) => {
   return (
     <>
-      <section className='Card-container'>
-        <Card/>
+      <section className='card-container'>
+        {result}
       </section>
     </>
   )

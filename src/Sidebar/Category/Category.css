@@ -26,7 +26,7 @@
   cursor: pointer;
 }
 
-.chekmark{
+.checkmark{
   position: absolute;
   top: 0;
   left: 0;
@@ -36,25 +36,25 @@
   border-radius: 50%;
 }
 
-.sidebar-label-container:hover input ~ .chekmark{
+.sidebar-label-container:hover input ~ .checkmark{
   background-color: #ccc;
 }
 
-.sidebar-label-container input:checked ~ .chekmark{
+.sidebar-label-container input:checked ~ .checkmark{
   background-color: #2196f3;
 }
 
-.chekmark::after{
+.checkmark::after{
   content: "";
   position: absolute;
   display: none;
 }
 
-.sidebar-label-container input:checked ~ .chekmark::after{
+.sidebar-label-container input:checked ~ .checkmark::after{
   display: block;
 }
 
-.sidebar-label-container .chekmark::after{
+.sidebar-label-container .checkmark::after{
   top: 6.4px;
   left: 6.4px;
   width: 7px;
